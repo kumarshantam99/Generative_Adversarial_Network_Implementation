@@ -13,6 +13,7 @@
 ### Introduction
 
 ![GAN Architecture](filename)
+
 Generative Adversarial Networks (GANs) are a class of generative AI models that have revolutionized the field of artificial intelligence by generating realistic and high-quality content. GANs consist of two neural networks: a generator and a discriminator, which work in a competitive setting.
 
 The generator network takes random noise as input and generates synthetic samples, such as images, based on that noise. Initially, the generator produces crude outputs that do not resemble the desired data distribution. The discriminator network, on the other hand, receives both real and generated samples and aims to distinguish between them accurately. It learns to differentiate between real and fake samples by updating its weights during the training process.
