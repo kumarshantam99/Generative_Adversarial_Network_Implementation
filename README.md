@@ -25,11 +25,12 @@ In every GAN, you supply a Random Noise Seed or a latent vector which can be a d
 Based on the generator loss and discriminator loss the fine-tuning is done to a maximum number of epochs.
 
 5 STEPS TO GANs
-•	Define the GAN architecture based on the application
-•	Train the discriminator to distinguish real from fake
-•	Train the generator to fake the data which can fool the discriminator and look realistic
-•	Continue discriminator and generator training for multiple epochs.
-•	Save the generator model to create new fake data.
+1. Define the GAN architecture based on the application
+2. Train the discriminator to distinguish real from fake
+3. Train the generator to fake the data which can fool the discriminator and look realistic
+4. Continue discriminator and generator training for multiple epochs.
+5. Save the generator model to create new fake data.
+
 During the training of the generator, the discriminator values as a constant similarly while training the discriminator holds the generator value as a constant. Each should be trained under a static adversary.
 
 
